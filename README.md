@@ -1,4 +1,4 @@
-# deque-mm
+# deque-médias_movéis
 criação de um deque para cálculo de médias móveis 
 
 
