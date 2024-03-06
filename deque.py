@@ -20,6 +20,9 @@ class Deque:
 
 class CalculadoraMediaMovel:
     def __init__(self, k):
+        if k <= 0:
+            raise ValueError("O tamanho da janela (k) deve ser maior que zero.")
+        
         self.deque = Deque()
         self.k = k
         self.soma_janela = 0
@@ -39,6 +42,9 @@ class CalculadoraMediaMovel:
             self.medias_moveis.append(None)
 
     def calcular_medias_moveis(self, dados_trafego):
+        if not dados_trafego:
+            raise ValueError("Os dados de tráfego não podem ser vazios.")
+        
         for elemento in dados_trafego:
             self.adicionar_elemento(elemento)
 
@@ -48,7 +54,7 @@ class CalculadoraMediaMovel:
 
 # Exemplo de uso:
 dados_trafego = [120, 130, 150, 140, 160, 170, 180, 200, 190, 210]
-k = 9  # Tamanho da janela
+k = 3  # Tamanho da janela
 
 calculadora = CalculadoraMediaMovel(k)
 calculadora.calcular_medias_moveis(dados_trafego)
