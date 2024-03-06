@@ -1,5 +1,21 @@
 # deque-médias_movéis
-criação de um deque para cálculo de médias móveis 
+criação de um deque para cálculo de médias móveis.
+
+Integrantes:
+LUIZ EDUARDO PIMENTEL DOS SANTOS
+PAULO HENRIQUE JUNIO DOS SANTOS LIMA
+RICARDO JOSÉ TENÓRIO CABRAL TORRES
+
+
+
+
+
+
+
+
+
+
+
 
 
 referências
