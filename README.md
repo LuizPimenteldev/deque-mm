@@ -1,5 +1,6 @@
 # deque-médias_movéis
-criação de um deque para cálculo de médias móveis.
+
+CRIAÇÃO DE UM DEQUE PARA CÁLCULO DE MÉDIAS MÓVEIS
 
 Integrantes:
 
