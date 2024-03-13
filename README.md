@@ -14,7 +14,9 @@ RICARDO JOSÉ TENÓRIO CABRAL TORRES
 Funcionalidades em falta:
 
 Ler dados do volume de trafego a partir de arquivo texto
+
 Salvar em arquivo as médias móveis calculadas para os dados lidos
+
 Alterar configuração do valor K de períodos para média móvel. O Padrão deve ser
 7.
 
